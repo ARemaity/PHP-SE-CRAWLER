@@ -1,7 +1,7 @@
 <?php
-require_once 'load-env.php';
-require_once 'api/astroMethods.php';
-use api\astroMethods;
+require_once '../load-env.php';
+require_once '../src/astroMethods.php';
+use src\astroMethods;
 $client = new astroMethods();
 $client->setEngine("google.ae");
 try {

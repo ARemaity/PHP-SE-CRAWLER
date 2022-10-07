@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-namespace api;
-require_once 'load-env.php';
+namespace src;
+require_once '../load-env.php';
 use PHPHtmlParser\Dom;
 use PHPHtmlParser\Dom\Node\HtmlNode;
 use PHPHtmlParser\Dom\Tag;
@@ -12,9 +12,9 @@ use PHPHtmlParser\Selector\Selector;
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Client;
 /**
- * Class Astro
+ * Class astro
  */
-class Astro 
+class astro 
 {
    
 

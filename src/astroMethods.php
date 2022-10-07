@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace api;
+namespace src;
 require_once 'astro.php';
-use api\astro;
+use src\astro;
 
 
 /**
@@ -41,7 +41,7 @@ class astroMethods extends astro
      * search : search according to array of keywords
      *
      * @param  array $keywords
-     * @return void
+     * @return array
      */
     public function search($keywords)
     {
