@@ -2,6 +2,7 @@
     "name": "ali.rmaity/php-se-crawler",
     "description": "php crawler for search engine",
     "license": "proprietary",
+    "minimum-stability": "dev",
     "require": {
         "guzzlehttp/guzzle": "7",
         "vlucas/phpdotenv": "5.4",
