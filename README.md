@@ -4,7 +4,7 @@
 
 
 
-PHPHtmlParser is php crawler tool for the search engine such as google,bing give you the ability to get output for title description link and ranking 
+PHP-SE-CRAWLER is php crawler tool for the search engine such as google,bing give you the ability to get output for title description link and ranking 
 
 Install
 -------
