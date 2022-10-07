@@ -1,7 +1,21 @@
 {
+    "name": "ali.rmaity/php-se-crawler",
+    "description": "php crawler for search engine",
+    "license": "proprietary",
     "require": {
-        "guzzlehttp/guzzle": "^7.0",
-        "vlucas/phpdotenv": "^5.4",
-        "paquettg/php-html-parser": "^3.1"
-    }
+        "guzzlehttp/guzzle": "7",
+        "vlucas/phpdotenv": "5.4",
+        "paquettg/php-html-parser": "3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliRmaity\\PhpSeCrawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alirmaity",
+            "email": "alirmaity@mirumagency.com"
+        }
+    ]
 }
