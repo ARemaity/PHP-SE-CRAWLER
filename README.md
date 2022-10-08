@@ -24,10 +24,10 @@ Basic Usage
 -----
 ```php
 // Assuming you installed from  github repo 
-require "vendor/autoload.php";
-use AliRmaity\PhpSeCrawler;
-
-$client = new PhpSeCrawler();
+require_once '../load-env.php';
+require_once '../src/astroMethods.php';
+use src\astroMethods;
+$client = new astroMethods();
 $client->setEngine("google.ae");
 try {
     $results = $client->search(["ferrari","cars"]);
@@ -41,4 +41,5 @@ try {
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
 }
+
 
