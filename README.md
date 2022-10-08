@@ -9,10 +9,13 @@ PHP-SE-CRAWLER is php crawler tool for the search engine such as google,bing giv
 Install
 -------
 
-Install the latest version using composer.
+Install the latest version using composer or the preferable to clone the repo or download the lastet release and.
+```bash
+$ composer install
+```
 
 ```bash
-$ composer require ali.rmaity/php-se-crawler
+$ composer require ali.rmaity/php-se-crawler -- not stable
 ```
 
 This package can be found on [packagist] and is best loaded using [composer](http://getcomposer.org/). We support php 7.2, 7.3, and 7.4.
@@ -20,7 +23,7 @@ This package can be found on [packagist] and is best loaded using [composer](htt
 Basic Usage
 -----
 ```php
-// Assuming you installed from Composer:
+// Assuming you installed from  github repo 
 require "vendor/autoload.php";
 use AliRmaity\PhpSeCrawler;
 
